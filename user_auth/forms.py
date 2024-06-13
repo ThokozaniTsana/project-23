@@ -4,6 +4,10 @@ from django.contrib.auth import password_validation
 from .models import CustomUser
 
 class SignupForm(UserCreationForm):
+    """param:a form that creates a user, with no privileges from the given username and 
+    password.
+    a Class that defines custom passwords fields."""
+
     password1 = forms.CharField(
         label="Password",
         widget=forms.PasswordInput(attrs={'class': 'form-control', 'id': 'password-input'}),
