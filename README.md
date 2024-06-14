@@ -23,4 +23,5 @@ in your  build  folder thats were you  find your html.
 #usage 
 it is very easy to follow:
 make use of git commands, docker commands and spinx commands.
+create  your own username and passwords
 
